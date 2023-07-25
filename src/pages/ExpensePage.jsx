@@ -2,6 +2,7 @@ import React from 'react';
 import TransactionList from '../component/TransactionList';
 import ExpenseForm from '../component/ExpenseForm';
 import NetBalance from '../component/NetBalance';
+import ClearAll from '../component/ClearAll';
 
 const ExpensePage = () => {
     return (
@@ -9,6 +10,7 @@ const ExpensePage = () => {
       <h2>Expense</h2>
       <ExpenseForm/>
       <NetBalance/>
+      <ClearAll/>
       <TransactionList type="expense" />
     </div>
     );
